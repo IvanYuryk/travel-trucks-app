@@ -1,0 +1,36 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.text {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  color:  #2b900c;
+}
+
+.input {
+  height: 40px;
+  border-radius: 4px;
+  background: transparent;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  border: 1px solid gray;
+  letter-spacing: 0.04em;
+}
+
+.input:hover,
+.input:focus {
+  border: 1px solid  rgb(6, 6, 109);
+}
+
+.input::placeholder {
+  color: rgba(128, 128, 128, 0.438);
+}
